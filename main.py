@@ -120,4 +120,4 @@ def chat(sent_msg):
     return random.choice(responses)     
 
 client = MyClient()
-client.run('NzkzODE0Nzg0MDg0NjcyNTIy.X-xvoA.pBvZg7ItadBddQVJWPnF3ACI0gw')
+client.run('NzkzODE0Nzg0MDg0NjcyNTIy.X-xvoA.cJAD1UJItYkbKQC7C9FzBksG7-k')
