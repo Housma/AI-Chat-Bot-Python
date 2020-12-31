@@ -1,0 +1,75 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard ", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "food",
+         "patterns": ["What do you have on menu?", "What do you serve?", "What foods are avilable?"],
+         "responses": ["We have very vast menu check up the link : https://www.delish.com/cooking/menus", "You can choose what you like from here: https://www.delish.com/cooking/menus"]
+        },
+        {"tag": "drinks",
+         "patterns": ["What drinks do you have?", "What you offer as drink?", "Do you have something hot or cold?"],
+         "responses": ["We offer all kinds of drinks", "We have water, coffee , cola , alcohol just give me sign."]
+        },
+        {"tag": "reservation",
+         "patterns": ["I want to make reservation?", "Can i have reservation?", "Is there avilable tables for 5 people?"],
+         "responses": ["We always have place for you", "Of course we have place for you and your friends", "Let me check... Yes we have."]
+        },
+		{"tag": "selamlama",
+         "patterns": ["Selam", "nasilsin", "Kimse yokmu?", "Merhaba", "Iyi gunler"],
+         "responses": ["Selam., Ziyaret ettiginiz icin tesekkurler.", "Mukemmel, seni gormek guzel.", "Merhaba nasil yardimci olabilirim."]
+        },
+        {"tag": "gulegule",
+         "patterns": ["Hoscakal", "Gorusuruz", "Goodbye"],
+         "responses": ["Gorusuruz., Ziyaret ettiginiz icin tesekkurler.", "Iyi gunler.", "Hoscakal! Tekrar bekleriz."]
+        },
+        {"tag": "tesekkurler",
+         "patterns": ["Tesekkurler", "Tesekkur Ederim", "Bu yardimci oldu."],
+         "responses": ["Memnuniyetle yardim ettim!", "Istedigin zaman.", "Zevkle"]
+        },
+        {"tag": "saat",
+         "patterns": ["Hangi saatler arasi aciksin?", "Saatleriniz nedir?", "Ne zaman aciksin?" ],
+         "responses": ["Her gun 9:00 - 21:00 arasi acigim", "Saatlerimiz her gun 9:00-21:00"]
+        },
+        {"tag": "odemeler",
+         "patterns": ["Kredi karti geciyormu?", "Mastercard kabul ediyormusunuz?", "Sadece nakitmi?" ],
+         "responses": ["VISA, Mastercard ve nakit kabul ediyoruz", "Herturlu kredi karti gecerlidir."]
+        },
+        {"tag": "bugunacik",
+         "patterns": ["Bugun acikmisiniz ?", "Ne zaman aciyorsun", "Bugun calisma saatleriniz nedir?"],
+         "responses": ["Her gun 9:00 - 21:00 arasi acigiz.", "Saatlerimiz her gun 9:00-21:00"]
+        },
+        {"tag": "yemek",
+         "patterns": ["Menude ne var?", "Ne hizmet veriyorsunuz?", "Hangi yemekler mevcut?"],
+         "responses": ["cok genis bir menumuz var Baglantiyi kontrol edin : https://www.delish.com/cooking/menus", "You can choose what you like from here: https://www.delish.com/cooking/menus"]
+        },
+        {"tag": "icecekler",
+         "patterns": ["Ne iciyorsun?", "Icecek olarak ne oneriyorsun?", "Sicak veya soguk birseyler var mi ?"],
+         "responses": ["Her cesit icecegimiz var.", "Suyumuz, kahvemiz, kolamiz var, alkolumuz var sadece bana soylemen yeterli."]
+        },
+        {"tag": "rezervasyon",
+         "patterns": ["Rezervasyon yapmak istiyorum.", "Rezervasyon yapabilir miyim ?", "5 kisilik musait masa var mi?"],
+         "responses": ["Senin icin her zaman yerimiz var", "Elbette senin ve arkadaslarin icin yerimiz var", "Bir bakayim ... Evet var."]
+        }
+   ]
+}
