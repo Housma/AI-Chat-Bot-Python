@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\Housma\\bot\\model.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\Housma\\bot\\model.tflearn"
+model_checkpoint_path: "C:\\Users\\Housma\\bot\\bot\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\Housma\\bot\\bot\\model.tflearn"
